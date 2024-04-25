@@ -1,0 +1,162 @@
+body{
+    background-image: url(../img/control.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+
+}
+
+.container{
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+    text-align: justify;
+    background-color: #ffffff;
+    justify-content: center;
+    
+    
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: #a01010;
+    color: white;
+    text-align: center;
+}
+
+.header img{
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.content{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+    margin: 10px;
+    width: 500px;
+
+}
+
+.box img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+
+.box1{
+    width: 100%;
+    
+}
+
+
+
+.jogos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+.jogos h2{
+    justify-content: center;
+}
+
+.colors h2{
+    font-size: 50px;
+    background: #daa520;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+     font-weight: 900;
+     font-family: Arial;
+}
+
+.colors p{
+    font-size: 40px;
+    background: #C0C0C0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+     font-weight: 500;
+     font-family: Arial;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #a01010;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: none;
+    }
+
+    .container{
+        width: auto;
+        font-size: 14px;
+
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content img{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        background-image: none;
+    }
+
+    .banner{
+        width: 170%;
+    }
+
+    .footer{
+        width: 155%;
+    }
+
+    .header{
+        width: 150%;
+    }
+    .container{
+        
+        font-size: 25px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .content{
+        flex-direction: column;
+        
+    }
+
+    .content img{
+        width: 100%;
+    }
+    
+}
